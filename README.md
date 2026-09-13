@@ -1,6 +1,6 @@
 # MIS3371 Capstone Project: CougarTutor+ Tutoring Appointment Booking System
 
-## Project Overview
+## I. Project Overview
 
 **Scenario**
 
