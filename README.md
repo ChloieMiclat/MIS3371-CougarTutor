@@ -22,10 +22,13 @@ The project focuses on improving the tutoring appointment request process by pro
 - [04 - Functional Requirements](./Milestone%201%20Documents/04%20-%20Functional%20Requirements.docx)
 - [05 - User Stories + Acceptance Criteria](./Milestone%201%20Documents/05%20-%20User%20Stories%20%2B%20Acceptance%20Criteria.docx)
 - [06 - Business Rules](./Milestone%201%20Documents/06%20-%20Business%20Rules.docx)
+- [07 - Team Charter](./Milestone%201%20Documents/07%20-%20Team%20Charter.docx)
 
-## III. Team Charter
-- Tina Thay — Requirements / Product Lead
-- Catherine Nguyen — UI / Accessibility Lead
-- Cordy Hoang — JavaScript / Logic Lead
-- Chloie Miclat — Git / Integration Lead
-- Jessica Ngo — QA / Documentation Lead
+## III. Team Members 
+- Cordy Hoang
+- Chloie Miclat
+- Jessica Ngo 
+- Catherine Nguyen
+- Tina Thay
+
+
