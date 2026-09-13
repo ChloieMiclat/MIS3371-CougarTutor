@@ -1,6 +1,6 @@
 # MIS3371 Capstone Project: CougarTutor+ Tutoring Appointment Booking System
 
-## Project Overview
+## I. Project Overview
 
 **Overview**
 
@@ -18,7 +18,7 @@ The project focuses on improving the tutoring appointment request process by pro
 
 The goal of **CougarTutor+** is to improve the organization and management of tutoring appointment requests by creating a smoother process for students seeking academic assistance and tutors providing support.
 
-## Milestone 1 Documents
+## II. Milestone 1 Documents
 
 - [01 - Business Problem + Scope](./Milestone%201%20Documents/01%20-%20Business%20Problem%20%2B%20Scope.docx)
 - [02 - Stakeholders](./Milestone%201%20Documents/02%20-%20Stakeholders.docx)
@@ -27,4 +27,4 @@ The goal of **CougarTutor+** is to improve the organization and management of tu
 - [05 - User Stories + Acceptance Criteria](./Milestone%201%20Documents/05%20-%20User%20Stories%20%2B%20Acceptance%20Criteria.docx)
 - [06 - Business Rules](./Milestone%201%20Documents/06%20-%20Business%20Rules.docx)
 
-## Team Charter
+## III. Team Charter
