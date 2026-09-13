@@ -1,6 +1,7 @@
 ### MIS 3371 Capstone Project: CougarTutor+ Tutoring Appointment Booking System
 
-**Overview**  
+**Project Overview** 
+---
 **CougarTutor+** is a tutoring appointment booking system designed to improve the process of connecting students seeking academic assistance with available tutors. The system provides a centralized platform for organizing tutoring requests and appointment management, replacing informal coordination methods such as emails, sign-up sheets, and word-of-mouth communication.
 
 **Purpose**  
