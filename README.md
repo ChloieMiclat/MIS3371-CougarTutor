@@ -2,10 +2,6 @@
 
 MIS3371 project repository for **CougarTutor+**, a UH tutoring appointment booking system designed to improve tutoring request management and appointment coordination.
 
----
-
-## Project Overview
-
 ### CougarTutor+ Tutoring Appointment Booking System
 
 **Overview**  
