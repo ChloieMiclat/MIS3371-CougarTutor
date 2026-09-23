@@ -103,6 +103,10 @@ button {
   cursor: pointer;
 }
 
+button:hover {
+  background: #7A1735;
+}
+
 .site-footer {
   margin-top: 32px;
   color: #676B72;
