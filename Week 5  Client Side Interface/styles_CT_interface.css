@@ -1,7 +1,6 @@
 /* WEEK 5 — SESSION 1 SOLUTION: desktop styling */
 
 /* Make width calculations predictable. */
-/*If I say an element is 300px side, its final visible width stays 300px, even when I add padding and a border */
 * {
   box-sizing: border-box;
 }
@@ -73,6 +72,13 @@ textarea {
   background: #FFFFFF;
 }
 
+/* Remove extra spacing from checkbox */
+input[type="checkbox"] {
+  width: auto;
+  padding: 0;
+  margin: 0;
+}
+
 textarea {
   resize: vertical;
 }
@@ -81,6 +87,7 @@ textarea {
   display: flex;
   align-items: center;
   gap: 8px;
+  margin-top: 4px;
 }
 
 .checkbox-row input {
@@ -92,6 +99,7 @@ textarea {
   font-weight: 400;
 }
 
+/* Submit button */
 button {
   padding: 11px 18px;
   font: inherit;
