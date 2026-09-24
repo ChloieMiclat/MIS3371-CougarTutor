@@ -66,7 +66,7 @@
     </section>
 
 
-    <!-- Tutoring  request transaction -->
+    <!-- Tutoring request transaction -->
 
     <section>
 
@@ -78,20 +78,8 @@
       </p>
 
 
-      <!--
-        <form> groups all controls that participate
-        in one submission.
-
-        method="get" is used for this classroom demo.
-      -->
-
       <form method="get">
 
-
-        <!--
-          <fieldset> groups related form controls.
-          <legend> gives the group a meaningful name.
-        -->
 
         <fieldset>
 
@@ -100,41 +88,43 @@
 
           <!-- =====================================================
                STUDENT ID
+               Data Dictionary: studentId
+               Type: Text
+               Required: Yes
+               Constraint: Exactly 7 digits
                ===================================================== -->
 
-          <!--
-            for="studentId" connects the label
-            to id="studentId".
-          -->
-
-          <label for="studentId">Student ID</label>
+          <label for="studentId">
+            Student ID
+          </label>
 
           <input
             id="studentId"
             name="studentId"
             type="text"
+            pattern="[0-9]{7}"
+            title="Student ID must be exactly 7 digits"
             required
           >
 
           <br><br>
 
 
+
           <!-- =====================================================
                STUDENT EMAIL
+               Data Dictionary: studentEmail
+               Type: Text/Email
+               Required: Yes
                ===================================================== -->
 
-          <!--
-            type="email" provides native browser validation
-            for email addresses.
-            
-            required = the field cannot be left empty.
-          -->
-
-          <label for="email">Student Email</label>
+          <label for="studentEmail">
+            Student Email
+          </label>
 
           <input
-            id="email"
-            name="email"
+            id="studentEmail"
+            name="studentEmail"
             type="email"
             required
           >
@@ -142,72 +132,70 @@
           <br><br>
 
 
-          <!-- =====================================================
-               PREFERRED DATE
-               ===================================================== -->
-
-          <label for="appointmentDate">Preferred Date</label>
-
-          <input
-            id="appointmentDate"
-            name="appointmentDate"
-            type="date"
-            required
-          >
-
-          <br><br>
-
 
           <!-- =====================================================
-               COURSE
+               SUBJECT
+               Data Dictionary: subject
+               Type: Text
+               Required: Yes
                ===================================================== -->
 
-          <label for="course">Course</label>
-
-          <!--
-            <select> is appropriate because students
-            choose from a known list of courses.
-          -->
+          <label for="subject">
+            Course / Subject
+          </label>
 
           <select
-            id="course"
-            name="course"
+            id="subject"
+            name="subject"
             required
           >
 
-            <option value="">Choose a course</option>
+            <option value="">
+              Choose a subject
+            </option>
 
-            <option value="mis3371">MIS 3371</option>
+            <option value="MIS3371">
+              MIS 3371
+            </option>
 
-            <option value="accounting">Accounting</option>
+            <option value="accounting">
+              Accounting
+            </option>
 
-            <option value="economics">Economics</option>
+            <option value="economics">
+              Economics
+            </option>
 
-            <option value="statistics">Statistics</option>
+            <option value="statistics">
+              Statistics
+            </option>
 
-            <option value="other">Other</option>
+            <option value="other">
+              Other
+            </option>
 
           </select>
 
           <br><br>
 
 
+
           <!-- =====================================================
-               TUTORING TOPIC
+               TOPIC DESCRIPTION
+               Data Dictionary: topicDescription
+               Type: Text
+               Required: Yes
                ===================================================== -->
 
-          <label for="topic">Tutoring Topic / Reason</label>
+          <label for="topicDescription">
+            Tutoring Topic / Reason
+          </label>
 
           <br>
 
-          <!--
-            Native constraint:
-            required = the student must provide a tutoring topic.
-          -->
-
           <textarea
-            id="topic"
-            name="topic"
+            id="topicDescription"
+            name="topicDescription"
             rows="4"
             cols="45"
             required
@@ -216,24 +204,107 @@
           <br><br>
 
 
+
           <!-- =====================================================
-               ONLINE TUTORING CHECKBOX
+               REQUESTED DATE
+               Data Dictionary: requestedDate
+               Type: Date
+               Required: Yes
+               Constraint: Today or future date
                ===================================================== -->
 
-          <!--
-            Checkbox represents a yes/no choice.
-          -->
+          <label for="requestedDate">
+            Preferred Date
+          </label>
 
           <input
-            id="online"
-            name="online"
-            type="checkbox"
-            value="yes"
+            id="requestedDate"
+            name="requestedDate"
+            type="date"
+            required
           >
 
-          <label for="online">
-            I prefer online tutoring
+          <br><br>
+
+
+
+          <!-- =====================================================
+               REQUESTED TIME
+               Data Dictionary: requestedTime
+               Type: Time
+               Required: Yes
+               ===================================================== -->
+
+          <label for="requestedTime">
+            Preferred Time
           </label>
+
+          <input
+            id="requestedTime"
+            name="requestedTime"
+            type="time"
+            required
+          >
+
+          <br><br>
+
+
+
+          <!-- =====================================================
+               REQUESTED DURATION
+               Data Dictionary: requestedDuration
+               Type: Number
+               Required: Yes
+               Constraint: 30/60 minutes
+               ===================================================== -->
+
+          <label for="requestedDuration">
+            Session Length
+          </label>
+
+          <select
+            id="requestedDuration"
+            name="requestedDuration"
+            required
+          >
+
+            <option value="">
+              Choose duration
+            </option>
+
+            <option value="30">
+              30 minutes
+            </option>
+
+            <option value="60">
+              60 minutes
+            </option>
+
+          </select>
+
+          <br><br>
+
+
+
+          <!-- =====================================================
+               ONLINE PREFERENCE
+               Additional user preference
+               ===================================================== -->
+
+          <div class="checkbox-row">
+
+            <input
+              id="online"
+              name="online"
+              type="checkbox"
+              value="yes"
+            >
+          
+            <label for="online">
+              I prefer online tutoring
+            </label>
+          
+          </div>
 
 
         </fieldset>
